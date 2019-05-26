@@ -23,6 +23,8 @@ There are many things you can tweak on a 3d printer. Both hardware and software.
 * [Taurus Y](https://www.thingiverse.com/thing:3321711)
 * [Skelestruder](https://www.thingiverse.com/thing:2845416)
 
+Both stock and skele had [nozzle X](https://e3d-online.com/nozzlex-v6) and a nozzle sock. Stock also had [a new nozzle](https://www.thingiverse.com/thing:3249344) from RH_Dreambox.
+
 ### Slicer settings
 
 I used slic3r PE 1.42.0-beta1 with stock profiles. Any per model changes are documented below. For the skele prints I edited the k value from 30 to 20 and retraction from 0.8 to 0.6.

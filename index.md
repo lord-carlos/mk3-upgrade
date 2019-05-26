@@ -73,7 +73,7 @@ To eliminate filament as a variable, I used Prusament for some before/after prin
 TODO
 Nothing changed, lol
 
-- 602 cube: Both in real life and on images I can't see any differences. Maybe some slight difference on the top?
+- 602 cube: Both in real life and on images I can't see any differences. Maybe some slight difference on the top? [Side by side in good light](assets/images/20190525T190444.jpg)
   - [Blue 602 cube](https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=9317ddc4-7fa7-11e9-8804-0edaf8f81e27) - ([slightly lower light angle](https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=4b2ed206-7fac-11e9-8804-0edaf8f81e27))
   - [White 602 cube](https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=e960ff20-7fb2-11e9-8804-0edaf8f81e27) - ([slightly lower light angle](https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=9c29fc98-7fb2-11e9-8804-0edaf8f81e27))
   - [Black 602 cube](https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=1c4ff6ac-7fb3-11e9-8804-0edaf8f81e27) - ([slightly lower light angle](https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=39a46332-7fb3-11e9-8804-0edaf8f81e27))
@@ -85,9 +85,11 @@ Nothing changed, lol
   - [Silver wall](https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=541395b8-7fb7-11e9-8804-0edaf8f81e27)
 - Overhang and bridge test: Skele with LDO blower is slighty better at overhangs, but at such a steep angle you want to avoid models like that anyway. I see no difference at bridging.
   - TODO: Image
+  - [Full image](assets/images/overhang.jpg) (!large filesize!)
 - Ghosting / Speed test: I printed this, but decided it's not a good test. Had some minor ghosting on both skele and stock. But that should be fixed with messing with the belts.
 - 3d test v3: I don't see a difference
-  - TODO: Image
+  - [Image](assets/images/3d%20test%20v3.jpg) (!large filesize!)
+- Benchy: [both look fine.](assets/images/benchy_zoom.jpg)
 
 ### Conclusion
 

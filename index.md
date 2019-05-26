@@ -1,37 +1,49 @@
-## Welcome to GitHub Pages
+## Upgrading the Prusa mk3 and its influence on wall quality
 
-You can use the [editor on GitHub](https://github.com/lord-carlos/mk3-upgrade/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+I upgraded my Prusa mk3 R2 build with different axis and extruder. I printed different models before and after the upgrade to see how it affects the print quality. While I did also print all-in-one test, I wanted to focus on wall quality. Better known as 602 inconsitent extrusion.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Limitions
 
-### Markdown
+ree
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Models
 
-```markdown
-Syntax highlighted code block
+* 602 cube TODO links
+* single wall
+* foo 
+* bar 
 
-# Header 1
-## Header 2
-### Header 3
+### Upgrades
 
-- Bulleted
-- List
+* X axis
+* TODO
 
-1. Numbered
-2. List
+### Slicer settings
 
-**Bold** and _Italic_ and `Code` text
+TODO links 
 
-[Link](url) and ![Image](src)
-```
+- 602 cube: 
+  - seam position: rear
+- 3d test v3:
+  - Detect thin walls
+- 40x40 cube
+  - perimeters:	1
+  - Solid layers top: 	0
+  - Solid layers Bottom: 	1
+  - Infill: 	0
+- Ghosting / Speed test:
+  - Speed: 120 mm/s (All of them)
+  - Acceleration control: 1250 mm/s^2
+  - Slow down if layer print time is below: 5
+ - fan_test_-_Part_2b
+  - Brim width: 5mm
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+### Results
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/lord-carlos/mk3-upgrade/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+TODO
+Nothing changed, lol
 
-### Support or Contact
+### Conclusion
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+TODO

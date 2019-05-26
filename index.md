@@ -4,27 +4,32 @@ I upgraded my Prusa mk3 R2 build with different axis and extruder. I printed dif
 
 ### Limitions
 
-ree
+There are many things you can tweak on a 3d printer. Both hardware and software. I tried to stick with stock slicer settings as much as possible. You will also see some minor ghosting on the x axis on my stock prints, just ignore them. They could have been removed with belt tension improvements. But that is a pita on stock mk3.
 
 ### Models
 
-* 602 cube TODO links
-* single wall
-* foo 
-* bar 
+* [602 cube](https://www.thingiverse.com/thing:3296697/files)
+* Single perimeter 40x40 cube 
+* [3d test v3](https://www.thingiverse.com/thing:1363023)
+* Overhang and bridge test
+* [Benchy](http://www.3dbenchy.com/)
 
 ### Upgrades
 
-* X axis
-* TODO
+* [LDO blower fan](https://zaribo.com/electronics/88-radial-cooling-fan-5v-mk3.html) (slight more powerfull)
+* [Sunon hotend fan](https://zaribo.com/home/127-sunon-5v-40mm-x-40mm-fan.html) - vastly better cooling.
+* [Taurus Y](https://www.thingiverse.com/thing:3269389)
+* [Taurus X](https://www.thingiverse.com/thing:3308841)
+* [Taurus Y](https://www.thingiverse.com/thing:3321711)
+* [Skelestruder](https://www.thingiverse.com/thing:2845416)
 
 ### Slicer settings
 
-TODO links 
+I used slic3r PE 1.42.0-beta1 with stock profiles. Any per model changes are documented below. For the skele prints I edited the k value from 30 to 20 and retraction from 0.8 to 0.6.
 
-- 602 cube: 
+- [602 cube](https://www.thingiverse.com/thing:3296697/files): 
   - seam position: rear
-- 3d test v3:
+- [3d test v3](https://www.thingiverse.com/thing:1363023):
   - Detect thin walls
 - 40x40 cube
   - perimeters:	1
@@ -35,9 +40,17 @@ TODO links
   - Speed: 120 mm/s (All of them)
   - Acceleration control: 1250 mm/s^2
   - Slow down if layer print time is below: 5
- - fan_test_-_Part_2b
+ - `fan_test_-_Part_2b`
   - Brim width: 5mm
 
+### Filament
+
+To eliminate filament as a variable, I used Prusament for some before/after prints. I could not see any difference in Prusament vs cheap local, with focus on external perimeter qualty.
+
+ * Prusament PLA Vanilla White
+ * Prusa Silver (Not Prusament, the one I got with my mk3)
+ * Pirate Black - 3DE Premium PLA
+ * Some blue 3DE Premium PLA
 
 ### Results
 

@@ -4,6 +4,8 @@
 
 I upgraded my Prusa mk3 R2 build with different axis and extruder. I printed different models before and after the upgrade to see how it affects the print quality. While I did also print all-in-one test, I wanted to focus on wall quality. Better known as 602 inconsitent extrusion.
 
+![logo](assets/images/logo.png)
+
 ### Limitions
 
 There are many things you can tweak on a 3d printer. Both hardware and software. I tried to stick with stock slicer settings as much as possible. You will also see some minor ghosting on the x axis on my stock prints, just ignore them. They could have been removed with belt tension improvements. But that is a pita on stock mk3.

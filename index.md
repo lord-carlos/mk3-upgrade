@@ -14,6 +14,8 @@ There are many things you can tweak on a 3d printer. Both hardware and software.
 * Overhang and bridge test
 * [Benchy](http://www.3dbenchy.com/)
 
+All stl files are [on this github repo](https://github.com/lord-carlos/mk3-upgrade/tree/master/assets/models).
+
 ### Upgrades
 
 * [LDO blower fan](https://zaribo.com/electronics/88-radial-cooling-fan-5v-mk3.html) (slight more powerfull)
@@ -27,7 +29,7 @@ Both stock and skele had [nozzle X](https://e3d-online.com/nozzlex-v6) and a noz
 
 ### Slicer settings
 
-I used slic3r PE 1.42.0-beta1 with stock profiles. Any per model changes are documented below. For the skele prints I edited the k value from 30 to 20 and retraction from 0.8 to 0.6.
+I used slic3r PE 1.42.0-beta1 with stock `0.20mm SPEED MK3` profiles. Any per model changes are documented below. For the skele prints I edited the k value from 30 to 20 and retraction from 0.8 to 0.6.
 
 - [602 cube](https://www.thingiverse.com/thing:3296697/files): 
   - seam position: rear
@@ -49,10 +51,10 @@ I used slic3r PE 1.42.0-beta1 with stock profiles. Any per model changes are doc
 
 To eliminate filament as a variable, I used Prusament for some before/after prints. I could not see any difference in Prusament vs cheap local, with focus on external perimeter qualty.
 
- * Prusament PLA Vanilla White
- * Prusa Silver (Not Prusament, the one I got with my mk3)
- * Pirate Black - 3DE Premium PLA
- * Some blue 3DE Premium PLA
+ * Prusament PLA Vanilla White, 210C (or 215C)
+ * Prusa Silver (Not Prusament, the one I got with my mk3), 200C
+ * Pirate Black - 3DE Premium PLA, 200C
+ * Some blue 3DE Premium PLA, 200C
 
 ### Results
 
@@ -60,6 +62,9 @@ TODO
 Nothing changed, lol
 
 * [Blue 602 cube](https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=9317ddc4-7fa7-11e9-8804-0edaf8f81e27) - ([more light](https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=4b2ed206-7fac-11e9-8804-0edaf8f81e27))
+* [White 602 cube](https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=e960ff20-7fb2-11e9-8804-0edaf8f81e27) - ([slightly lower light angle](https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=9c29fc98-7fb2-11e9-8804-0edaf8f81e27))
+* [Black 602 cube](https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=1c4ff6ac-7fb3-11e9-8804-0edaf8f81e27) - ([slightly lower light angle](https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=39a46332-7fb3-11e9-8804-0edaf8f81e27))
+* [Silver 602 cube](https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=867e88ae-7fb3-11e9-8804-0edaf8f81e27) - ([slightly lower light angle](https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=61f57646-7fb3-11e9-8804-0edaf8f81e27))
 
 ### Conclusion
 

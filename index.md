@@ -1,5 +1,7 @@
 ## Upgrading the Prusa mk3 and its influence on wall quality
 
+:arrow_down: **Images below!** :arrow_down:
+
 I upgraded my Prusa mk3 R2 build with different axis and extruder. I printed different models before and after the upgrade to see how it affects the print quality. While I did also print all-in-one test, I wanted to focus on wall quality. Better known as 602 inconsitent extrusion.
 
 ### Limitions
@@ -61,10 +63,21 @@ To eliminate filament as a variable, I used Prusament for some before/after prin
 TODO
 Nothing changed, lol
 
-* [Blue 602 cube](https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=9317ddc4-7fa7-11e9-8804-0edaf8f81e27) - ([more light](https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=4b2ed206-7fac-11e9-8804-0edaf8f81e27))
-* [White 602 cube](https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=e960ff20-7fb2-11e9-8804-0edaf8f81e27) - ([slightly lower light angle](https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=9c29fc98-7fb2-11e9-8804-0edaf8f81e27))
-* [Black 602 cube](https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=1c4ff6ac-7fb3-11e9-8804-0edaf8f81e27) - ([slightly lower light angle](https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=39a46332-7fb3-11e9-8804-0edaf8f81e27))
-* [Silver 602 cube](https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=867e88ae-7fb3-11e9-8804-0edaf8f81e27) - ([slightly lower light angle](https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=61f57646-7fb3-11e9-8804-0edaf8f81e27))
+- 602 cube: Both in real life and on images I can't see any differences. Maybe some slight difference on the top?
+  - [Blue 602 cube](https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=9317ddc4-7fa7-11e9-8804-0edaf8f81e27) - ([slightly lower light angle](https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=4b2ed206-7fac-11e9-8804-0edaf8f81e27))
+  - [White 602 cube](https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=e960ff20-7fb2-11e9-8804-0edaf8f81e27) - ([slightly lower light angle](https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=9c29fc98-7fb2-11e9-8804-0edaf8f81e27))
+  - [Black 602 cube](https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=1c4ff6ac-7fb3-11e9-8804-0edaf8f81e27) - ([slightly lower light angle](https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=39a46332-7fb3-11e9-8804-0edaf8f81e27))
+  - [Silver 602 cube](https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=867e88ae-7fb3-11e9-8804-0edaf8f81e27) - ([slightly lower light angle](https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=61f57646-7fb3-11e9-8804-0edaf8f81e27))
+- Single wall 40x40 cube: On skele (right) you can see some slight pattern, geoing on a 30 degree angle slighty upwards. But the stock also has some kind of pattern, harder to see on the images. Going steep down. Otherwise I can't tell a difference.
+  - [Blue wall](https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=27e47d2c-7fb7-11e9-8804-0edaf8f81e27)
+  - [White wall](https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=3840c04a-7fb7-11e9-8804-0edaf8f81e27)
+  - [Black wall](https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=42c34b5a-7fb7-11e9-8804-0edaf8f81e27)
+  - [Silver wall](https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=541395b8-7fb7-11e9-8804-0edaf8f81e27)
+- Overhang and bridge test: Skele with LDO blower is slighty better at overhangs, but at such a steep angle you want to avoid models like that anyway. I see no difference at bridging.
+  - TODO: Image
+- Ghosting / Speed test: I printed this, but decided it's not a good test. Had some minor ghosting on both skele and stock. But that should be fixed with messing with the belts.
+- 3d test v3: I don't see a difference
+  - TODO: Image
 
 ### Conclusion
 

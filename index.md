@@ -2,7 +2,7 @@
 
 :arrow_down: **Images below!** :arrow_down:
 
-I upgraded my Prusa mk3 R2 build with different axis and extruder. I printed different models before and after the upgrade to see how it affects the print quality. While I did also print all-in-one test, I wanted to focus on wall quality. Better known as 602 inconsitent extrusion.
+I upgraded my Prusa mk3 R2 build with different axis and extruder. I printed different models before and after the upgrade to see how it affects the print quality. While I did also print all-in-one test, I wanted to focus on wall quality.
 
 ![logo](assets/images/logo.png)
 
@@ -27,17 +27,18 @@ All stl files are [on this github repo](https://github.com/lord-carlos/mk3-upgra
 ![skele](assets/images/skele.png)
 
 * [LDO blower fan](https://zaribo.com/electronics/88-radial-cooling-fan-5v-mk3.html) (slight more powerfull)
+* [LDO Pancake Extruder Motor](https://zaribo.com/home/126-zaribo-pancake-motor-by-ldo.html) - runs cooler, even with stock current.
 * [Sunon hotend fan](https://zaribo.com/home/127-sunon-5v-40mm-x-40mm-fan.html) - vastly better cooling.
 * [Taurus Y](https://www.thingiverse.com/thing:3269389)
 * [Taurus X](https://www.thingiverse.com/thing:3308841)
 * [Taurus Y](https://www.thingiverse.com/thing:3321711)
 * [Skelestruder](https://www.thingiverse.com/thing:2845416)
 
-Both stock and skele had [nozzle X](https://e3d-online.com/nozzlex-v6) and a nozzle sock. Stock also had [a new nozzle](https://www.thingiverse.com/thing:3249344) from RH_Dreambox.
+Both stock and skele had [nozzle X](https://e3d-online.com/nozzlex-v6) and a nozzle sock. Stock also had [a new nozzle fan thingy](https://www.thingiverse.com/thing:3249344) from RH_Dreambox.
 
-### Slicer settings
+### Slicer settings and firmware
 
-I used slic3r PE 1.42.0-beta1 with stock `0.20mm SPEED MK3` profiles. Any per model changes are documented below. For the skele prints I edited the k value from 30 to 20 and retraction from 0.8 to 0.6.
+I used slic3r PE 1.42.0-beta1 with stock `0.20mm SPEED MK3` profiles. Any per model changes are documented below. For the skele prints I edited the k value from 30 down to 20 and retraction from 0.8 to 0.6.
 
 - [602 cube](https://www.thingiverse.com/thing:3296697/files): 
   - seam position: rear
@@ -55,6 +56,8 @@ I used slic3r PE 1.42.0-beta1 with stock `0.20mm SPEED MK3` profiles. Any per mo
  - `fan_test_-_Part_2b`
   - Brim width: 5mm
 
+Firmware was 3.4.2 before and after.
+
 ### Filament
 
 ![fillament](assets/images/fillament.webp)
@@ -69,9 +72,6 @@ To eliminate filament as a variable, I used Prusament for some before/after prin
 ### Results
 
 ![fillament](assets/images/result.webp)
-
-TODO
-Nothing changed, lol
 
 - 602 cube: Both in real life and on images I can't see any differences. Maybe some slight difference on the top? [Side by side in good light](assets/images/20190525T190444.jpg)
   - [Blue 602 cube](https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=9317ddc4-7fa7-11e9-8804-0edaf8f81e27) - ([slightly lower light angle](https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=4b2ed206-7fac-11e9-8804-0edaf8f81e27))
@@ -93,4 +93,9 @@ Nothing changed, lol
 
 ### Conclusion
 
-TODO
+Shit man, IDK. Skele++ [looks cool](https://streamable.com/0xq1e) and thanks to Taurus I can change my belt tension without any tools. Many people reportet that even just sunon fan on stock makes a huge difference to them. I printed with low ambient, ~16C, maybe in hotter climate you need more fan power?
+I think we need more people to try and document mk3 upgrades. 
+
+### Thanks
+
+Thanks to all the peeps fromt he [602 Wasteland discord](https://discord.gg/FCncyZn). Especially [Greg](https://www.thingiverse.com/pekcitron/about), the bear, and [Jltx](https://www.thingiverse.com/jltx/about), first to his name.

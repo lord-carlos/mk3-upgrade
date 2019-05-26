@@ -84,7 +84,7 @@ Nothing changed, lol
   - [Black wall](https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=42c34b5a-7fb7-11e9-8804-0edaf8f81e27)
   - [Silver wall](https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=541395b8-7fb7-11e9-8804-0edaf8f81e27)
 - Overhang and bridge test: Skele with LDO blower is slighty better at overhangs, but at such a steep angle you want to avoid models like that anyway. I see no difference at bridging.
-  - TODO: Image
+  - [Comperison slider](https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=5927cede-7fd5-11e9-8804-0edaf8f81e27)
   - [Full image](assets/images/overhang.jpg) (!large filesize!)
 - Ghosting / Speed test: I printed this, but decided it's not a good test. Had some minor ghosting on both skele and stock. But that should be fixed with messing with the belts.
 - 3d test v3: I don't see a difference

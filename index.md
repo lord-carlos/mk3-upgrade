@@ -44,7 +44,7 @@ TODO links
 TODO
 Nothing changed, lol
 
-* [Blue 602 cube](https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=9317ddc4-7fa7-11e9-8804-0edaf8f81e27)
+* [Blue 602 cube](https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=9317ddc4-7fa7-11e9-8804-0edaf8f81e27) - ([more light](https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=4b2ed206-7fac-11e9-8804-0edaf8f81e27))
 
 ### Conclusion
 

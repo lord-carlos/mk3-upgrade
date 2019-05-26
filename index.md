@@ -12,6 +12,8 @@ There are many things you can tweak on a 3d printer. Both hardware and software.
 
 ### Models
 
+![prints](assets/images/prints.webp)
+
 * [602 cube](https://www.thingiverse.com/thing:3296697/files)
 * Single perimeter 40x40 cube 
 * [3d test v3](https://www.thingiverse.com/thing:1363023)
@@ -21,6 +23,8 @@ There are many things you can tweak on a 3d printer. Both hardware and software.
 All stl files are [on this github repo](https://github.com/lord-carlos/mk3-upgrade/tree/master/assets/models).
 
 ### Upgrades
+
+![skele](assets/images/skele.png)
 
 * [LDO blower fan](https://zaribo.com/electronics/88-radial-cooling-fan-5v-mk3.html) (slight more powerfull)
 * [Sunon hotend fan](https://zaribo.com/home/127-sunon-5v-40mm-x-40mm-fan.html) - vastly better cooling.
@@ -53,6 +57,8 @@ I used slic3r PE 1.42.0-beta1 with stock `0.20mm SPEED MK3` profiles. Any per mo
 
 ### Filament
 
+![fillament](assets/images/fillament.webp)
+
 To eliminate filament as a variable, I used Prusament for some before/after prints. I could not see any difference in Prusament vs cheap local, with focus on external perimeter qualty.
 
  * Prusament PLA Vanilla White, 210C (or 215C)
@@ -61,6 +67,8 @@ To eliminate filament as a variable, I used Prusament for some before/after prin
  * Some blue 3DE Premium PLA, 200C
 
 ### Results
+
+![fillament](assets/images/result.webp)
 
 TODO
 Nothing changed, lol

@@ -31,7 +31,7 @@ All stl files are [on this github repo](https://github.com/lord-carlos/mk3-upgra
 * [Sunon hotend fan](https://zaribo.com/home/127-sunon-5v-40mm-x-40mm-fan.html) - vastly better cooling.
 * [Taurus Y](https://www.thingiverse.com/thing:3269389)
 * [Taurus X](https://www.thingiverse.com/thing:3308841)
-* [Taurus Y](https://www.thingiverse.com/thing:3321711)
+* [Taurus Z](https://www.thingiverse.com/thing:3321711)
 * [Skelestruder](https://www.thingiverse.com/thing:2845416)
 
 Both stock and skele had [nozzle X](https://e3d-online.com/nozzlex-v6) and a nozzle sock. Stock also had [a new nozzle fan thingy](https://www.thingiverse.com/thing:3249344) from RH_Dreambox.
